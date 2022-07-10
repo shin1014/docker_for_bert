@@ -37,3 +37,6 @@ RUN apt-get install -y libmecab2
 # [ADD] For ipynb
 RUN pip install --upgrade pip
 RUN pip install ipykernel
+
+# [ADD] for vim
+RUN apt-get install -y vim
