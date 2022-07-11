@@ -40,3 +40,6 @@ RUN pip install ipykernel
 
 # [ADD] for vim
 RUN apt-get install -y vim
+
+# [ADD] for vscode
+RUN apt-get install code
